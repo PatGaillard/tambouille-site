@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TAMBOUILLE · Confidentialité / Privacy</title>
+<meta name="description" content="Politique de confidentialité de TAMBOUILLE : l'app ne collecte aucune donnée et ne se connecte pas à Internet.">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --nuit:#0c0f17; --scene:#141a26; --trait:#25304a; --texte:#e7ecf5; --gris:#93a0b8;
+  --neon:#4aa3ff; --menthe:#6fd3b0;
+  --display:"Bricolage Grotesque", "Avenir Next", "Helvetica Neue", sans-serif;
+  --corps:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--nuit);color:var(--texte);font-family:var(--corps);font-size:19px;line-height:1.6}
+a{color:var(--neon)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--neon);outline-offset:3px;border-radius:6px}
+.wrap{max-width:820px;margin:0 auto;padding:0 24px}
+[data-lang="fr"] .en{display:none}
+[data-lang="en"] .fr{display:none}
+header.barre{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0}
+.marque{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--texte);font-family:var(--display);font-weight:800;letter-spacing:.18em;font-size:15px}
+.marque img{width:40px;height:40px}
+.langues{display:flex;border:1px solid var(--trait);border-radius:999px;overflow:hidden}
+.langues button{background:none;border:0;color:var(--gris);font:600 13px var(--mono);padding:7px 14px;cursor:pointer}
+.langues button[aria-pressed="true"]{background:var(--neon);color:#06101f}
+main{padding:32px 0 56px}
+.etiquette{font:500 13px var(--mono);color:var(--neon);letter-spacing:.08em;text-transform:uppercase;margin:0 0 10px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(38px,6vw,60px);line-height:1;letter-spacing:-.01em;margin:0 0 12px}
+.date{font:500 13px var(--mono);color:var(--gris);margin:0 0 32px}
+.bref{background:var(--scene);border:1px solid var(--trait);border-left:3px solid var(--menthe);border-radius:0 14px 14px 0;padding:18px 22px;margin:0 0 40px;font-size:21px}
+.bref strong{color:var(--menthe);font-weight:600}
+h2{font-family:var(--display);font-weight:800;font-size:26px;line-height:1.15;margin:40px 0 12px}
+p{margin:0 0 14px}
+ul{margin:0 0 14px;padding-left:22px}
+li{margin:0 0 8px}
+footer{border-top:1px solid var(--trait);padding:36px 0 48px;color:var(--gris);font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center;max-width:1120px}
+footer a{color:var(--texte)}
+@media (max-width:820px){body{font-size:18px}.bref{font-size:19px}}
+</style>
+</head>
+<body data-lang="fr">
+<div class="wrap">
+  <header class="barre">
+    <a class="marque" href="./"><img src="img/logo.png" alt="">TAMBOUILLE</a>
+    <div class="langues" role="group" aria-label="Langue / Language">
+      <button type="button" data-l="fr" aria-pressed="true">FR</button>
+      <button type="button" data-l="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <p class="etiquette fr">Politique de confidentialité</p><p class="etiquette en">Privacy policy</p>
+    <h1 class="fr">Confidentialité</h1><h1 class="en">Privacy</h1>
+    <p class="date fr">Mise à jour : 20 novembre 2026</p><p class="date en">Last updated: November 20, 2026</p>
+
+    <!-- ===== FRANÇAIS ===== -->
+    <div class="fr">
+      <p class="bref"><strong>TAMBOUILLE ne collecte aucune donnée.</strong> L'app ne se connecte pas à Internet : tout ce que vous faites reste sur votre Mac.</p>
+
+      <h2>L'application</h2>
+      <ul>
+        <li><strong>Aucune connexion à Internet.</strong> TAMBOUILLE fonctionne dans le cadre de sécurité d'Apple (le « sandbox ») sans l'autorisation d'accéder au réseau : macOS l'empêche de se connecter.</li>
+        <li><strong>Pas de compte, pas de publicité, pas de mesure d'audience, pas de suivi.</strong></li>
+        <li><strong>Vos fichiers restent chez vous.</strong> Vos morceaux, vos médiathèques et vos réglages sont enregistrés sur votre Mac : dans le dossier de données que vous choisissez au premier lancement, et dans le dossier privé de l'app. Ils ne sont envoyés nulle part.</li>
+        <li><strong>MIDI.</strong> TAMBOUILLE échange des notes avec vos claviers et vos logiciels de musique (Logic Pro, par exemple) par le système MIDI de votre Mac. Ces notes ne sont ni enregistrées ni transmises par l'app.</li>
+      </ul>
+
+      <h2>L'achat</h2>
+      <p>TAMBOUILLE s'achète sur le Mac App Store. Le paiement est traité par Apple, selon <a href="https://www.apple.com/fr/legal/privacy/">sa propre politique de confidentialité</a>. Nous ne recevons ni votre nom ni vos coordonnées bancaires.</p>
+
+      <h2>Les rapports de plantage</h2>
+      <p>Si vous l'avez accepté dans Réglages Système › Confidentialité et sécurité › Analyse et améliorations (« Partager avec les développeurs d'apps »), Apple peut nous transmettre des rapports de plantage anonymes. Ils servent uniquement à corriger l'app.</p>
+
+      <h2>Si vous nous écrivez</h2>
+      <p>Votre adresse e-mail et votre message servent seulement à vous répondre. Ils ne sont ni vendus ni transmis à qui que ce soit.</p>
+
+      <h2>Ce site</h2>
+      <ul>
+        <li>Pas de cookies, pas de mesure d'audience.</li>
+        <li>Votre choix de langue (FR / EN) est retenu dans votre navigateur, sans rien envoyer.</li>
+        <li>Le site est hébergé par GitHub Pages, qui enregistre les adresses IP des visiteurs pour des raisons techniques et de sécurité (<a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">politique de GitHub</a>).</li>
+        <li>Les polices de caractères sont chargées depuis Google Fonts, qui reçoit alors votre adresse IP (<a href="https://policies.google.com/privacy?hl=fr">politique de Google</a>).</li>
+      </ul>
+
+      <h2>Responsable et contact</h2>
+      <p>Patrick Gaillard, créateur de TAMBOUILLE — <a href="mailto:contact@tambouille.app">contact@tambouille.app</a>.</p>
+      <p>Pour toute question sur vos données, ou pour exercer vos droits (accès, rectification, effacement), écrivez-nous à cette adresse.</p>
+    </div>
+
+    <!-- ===== ENGLISH ===== -->
+    <div class="en">
+      <p class="bref"><strong>TAMBOUILLE collects no data.</strong> The app does not connect to the internet: everything you do stays on your Mac.</p>
+
+      <h2>The app</h2>
+      <ul>
+        <li><strong>No internet connection.</strong> TAMBOUILLE runs inside Apple's security sandbox without network permission: macOS prevents it from connecting.</li>
+        <li><strong>No account, no ads, no analytics, no tracking.</strong></li>
+        <li><strong>Your files stay with you.</strong> Your songs, libraries and settings are saved on your Mac: in the data folder you choose on first launch, and in the app's private folder. They are never sent anywhere.</li>
+        <li><strong>MIDI.</strong> TAMBOUILLE exchanges notes with your keyboards and music software (Logic Pro, for example) through your Mac's MIDI system. The app neither records nor transmits these notes.</li>
+      </ul>
+
+      <h2>Purchase</h2>
+      <p>TAMBOUILLE is sold on the Mac App Store. Payment is handled by Apple under <a href="https://www.apple.com/legal/privacy/">its own privacy policy</a>. We receive neither your name nor your payment details.</p>
+
+      <h2>Crash reports</h2>
+      <p>If you have allowed it in System Settings › Privacy &amp; Security › Analytics &amp; Improvements (“Share with app developers”), Apple may send us anonymous crash reports. They are used only to fix the app.</p>
+
+      <h2>If you write to us</h2>
+      <p>Your email address and message are used only to reply to you. They are never sold or passed on to anyone.</p>
+
+      <h2>This website</h2>
+      <ul>
+        <li>No cookies, no analytics.</li>
+        <li>Your language choice (FR / EN) is remembered in your browser, without sending anything.</li>
+        <li>The site is hosted by GitHub Pages, which logs visitors' IP addresses for technical and security reasons (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's policy</a>).</li>
+        <li>Fonts are loaded from Google Fonts, which then receives your IP address (<a href="https://policies.google.com/privacy">Google's policy</a>).</li>
+      </ul>
+
+      <h2>Controller and contact</h2>
+      <p>Patrick Gaillard, creator of TAMBOUILLE — <a href="mailto:contact@tambouille.app">contact@tambouille.app</a>.</p>
+      <p>For any question about your data, or to exercise your rights (access, correction, deletion), write to us at this address.</p>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Patrick Gaillard · TAMBOUILLE</span>
+    <span><a href="privacy.html"><span class="fr">Confidentialité</span><span class="en">Privacy</span></a> · <a href="support.html"><span class="fr">Assistance</span><span class="en">Support</span></a></span>
+    <span>Contact : <a href="mailto:contact@tambouille.app">contact@tambouille.app</a></span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Même choix de langue que la page d'accueil (clé « tb-lang »).
+  var body=document.body, choix=null;
+  try{choix=localStorage.getItem('tb-lang')}catch(e){}
+  if(!choix){choix=(navigator.language||'fr').slice(0,2)==='fr'?'fr':'en'}
+  function poser(l){
+    body.setAttribute('data-lang',l);document.documentElement.lang=l;
+    document.querySelectorAll('.langues button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.l===l?'true':'false')});
+    try{localStorage.setItem('tb-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langues button').forEach(function(b){b.addEventListener('click',function(){poser(b.dataset.l)})});
+  poser(choix);
+})();
+</script>
+</body>
+</html>
